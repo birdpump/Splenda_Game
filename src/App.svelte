@@ -113,7 +113,7 @@
         {#each basket.items as item, itemIndex (item)}
           <div class="item" animate:flip>
             <img
-                    src="/splenda.png"
+                    src="./assets/splenda.png"
                     draggable={true}
                     on:dragstart={event => dragStart(event, basketIndex, itemIndex)}
             >
